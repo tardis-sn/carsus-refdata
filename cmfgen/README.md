@@ -31,7 +31,7 @@
 - `col_ariii`: file with two tables (Johnson values).
 
 
-## Photoionization cross-sections 
+## 4. Photoionization cross-sections 
 
 - `pho_nahar_A`: regular PHO file.
 
