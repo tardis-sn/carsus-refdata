@@ -1,46 +1,38 @@
-## ENERGY LEVELS
+# Reference data for CMFGEN parsers
 
-`si2_osc_kurucz`
+## 1. Energy levels
 
-`hi_osc.dat`
-no column names
+- `si2_osc_kurucz`: regular OSC file.
 
-`neviiosc_rev.dat`
-6 column file example
+- `hi_osc.dat`: file with no column names.
 
-`osc_butler.dat`
-4 column file example
+- `neviiosc_rev.dat`: 6 column file example.
 
-
-## OSCILLATOR STRENGTHS
-
-`si2_osc_kurucz`
-
-`fevi_osc_kb_rk.dat`
-8 columns file example with Fortran D type.
-
-`p2_osc`
-file very sensitive to regex changes (check the last two columns of first 5 rows).
-
-`vi_osc`
-empty file example.
-
-`aliii_osc.dat`
+- `osc_butler.dat`: 4 column file example.
 
 
-## COLLISIONAL DATA
+## 2. Oscillator strengths
 
-`he2col.dat`
+- `si2_osc_kurucz`: regular OSC file.
 
-`col_ariii`
-file with two tables (Johnson values)
+- `fevi_osc_kb_rk.dat`: 8 columns file example with Fortran 'D' type.
 
+- `p2_osc`: file sensitive to regex changes (check the last two columns of the first 5 rows).
 
-## PHOTOIONIZATION CROSS SECTIONS
+- `vi_osc`: empty file example.
 
-`pho_nahar_A`
-
-`phot_data_gs`
-8 columns Verner ground state fit example
+- `aliii_osc.dat` : ???
 
 
+## 3. Collisional strengths
+
+- `he2col.dat`: regular COL file.
+
+- `col_ariii`: file with two tables (Johnson values).
+
+
+## Photoionization cross-sections 
+
+- `pho_nahar_A`: regular PHO file.
+
+- `phot_data_gs`: 8 columns Verner ground state fit example.
